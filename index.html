@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <title>Assignment 02</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .container-y div{
+        :hover{
+          background-color: #199cdb;
+        }
+      }
+    </style>
+  </head>
+  <body style="position: relative">
+    <div>
+      <img
+        class="img"
+        src="images/default-avatar.webp"
+        alt=""
+        style="
+          z-index: 1;
+          margin: auto;
+          position: absolute;
+          top: 450px;
+          left: 770px;
+          border-radius: 50%;
+          border: solid white 10px;
+        "
+      />
+    </div>
+    
+    <div id="banner">
+      <div class="container">
+        <img
+          src="images/banner.jpg"
+          alt="computer programming"
+          style="width: 100%; height: 600px"
+        />
+        <div class="centered">
+          <h1
+            style="
+              font-size: 45px;
+              margin: auto;
+              color: white;
+              font-family: sans-serif;
+            "
+          >
+            Nguyễn Văn A
+          </h1>
+          <span style="margin: 90px; color: aliceblue"
+            >Full Stack Developer</span
+          >
+        </div>
+      </div>
+      <section id="nav-bar" style="margin-bottom: 100px">
+        <nav class="container w-100" style="font-size: small; padding: 50px">
+          <a href="#" style="padding-right: 30px"
+            ><i class="icon-user" style="font-size: 20px; color: #199cdb"></i
+            ><span style="font-size: 20px">THÔNG TIN</span></a
+          >
+          <a href="#" style="margin-right: 600px"
+            ><i
+              class="icon-doc-text-inv"
+              style="font-size: 20px; color: #199cdb"
+            ></i
+            ><span style="font-size: 20px">LÝ LỊCH</span></a
+          >
+
+          <a href="#" style="padding-right: 30px"
+            ><i
+              class="icon-mail-alt"
+              style="font-size: 20px; color: #199cdb"
+            ></i
+            ><span style="font-size: 20px">CHỨNG CHỈ</span></a
+          >
+          <a href="#" style="padding-right: 30px"
+            ><i class="icon-star-1" style="font-size: 20px; color: #199cdb"></i
+            ><span style="font-size: 20px">DỰ ÁN</span></a
+          >
+        </nav>
+      </section>
+    </div>
+
+    <section id="about" class="bg-grey">
+      <div class="container-x" style="padding-bottom: 100px">
+        <div id="target" class="target" style="padding-left: 10px">
+          <h1
+            class="section-title"
+            style="margin-top: 30px; font-size: 40px; font-weight: 100"
+          >
+            Mục tiêu nghề nghiệp
+          </h1>
+          <p style="margin-top: 50px; line-height: 30px">
+            Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
+            của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí
+            <b>Fullstack Developer</b>, có thể vận dụng những kiến thức đã được
+            trau dồi và không ngừng học hỏi để phát triển bản thân, cũng như
+            hoàn thành tốt nhất công việc được giao.
+          </p>
+        </div>  
+
+        <div id="personal-info" class="personal-info">
+          <h1
+            class="section-title"
+            style="
+              margin-left: 36px;
+              margin-top: 30px;
+              font-size: 40px;
+              font-weight: 100;
+            "
+          >
+            Thông tin cá nhân
+          </h1>
+          <input id="exampleInputEmail1" type="text" name="" style="margin-left: 40px;">
+          <div class="xa hidden" >
+          <ul
+            class="mt-40 info"
+            style="margin-top: 50px; list-style-type: none; line-height: 30px"
+          >
+            <li>
+              <span><strong>Giới tính</strong></span> : Nam
+            </li>
+            <li>
+              <span><strong>Ngày sinh</strong></span> : 19/05/2000
+            </li>
+            <li>
+              <span><strong>Điện thoại</strong></span> : (+84) 912398xxx
+            </li>
+            <li>
+              <span><strong>Email</strong></span> : sinhvien@funix.edu.vn
+            </li>
+            <li>
+              <span><strong>Địa chỉ</strong></span> : Số 10, đường 10, Hà Nội
+            </li>
+            <li>
+              <span><strong>Website</strong></span> : https://abc.tech
+            </li>
+            <li style="padding-top: 20px">
+              <i
+                class="icon-twitter"
+                style="color: #199cdb; padding-left: 5px"
+              ></i
+              ><i
+                class="icon-facebook"
+                style="color: #199cdb; padding-left: 10px"
+              ></i
+              ><i
+                class="icon-gplus"
+                style="color: #199cdb; padding-left: 10px"
+              ></i
+              ><i
+                class="icon-linkedin"
+                style="color: #199cdb; padding-left: 10px"
+              ></i>
+            </li>
+          </ul>
+          </div>      
+             <button class="show-modal btn btn-primary">Submit</button>   
+        </div>
+      </div>
+    </section>
+
+    <section id="job-info">
+      <div class="container-y">
+        <div class=""
+          style="
+            margin-top: 20px;
+            border: solid black 1px;
+            padding-bottom: 400px;
+            margin-left: 20px;
+            line-height: 30px;
+          "
+        >
+          <span
+            class="ic-toolbox"
+            style="
+              padding-left: 250px;
+              font-size: 50px;
+              position: absolute;
+              margin-top: 10px;
+              color: lightgray;
+            "
+          ></span>
+          <h1 style="padding-left: 10px; margin-top: 25px; margin-bottom: 20px">
+            Kinh nghiệm
+          </h1>
+
+          <div
+            class="section timeline"
+            id="experience"
+            style="padding-top: 30px; display: grid"
+          >
+          <div class="xa2 hidden">
+            <div class="section-content right">
+              <div class="content" style="margin-left: 30px">
+                <div id="c3"></div>
+                <p style="padding-left: 10px">
+                  <strong class="containerq"
+                    >Full Stack Developer - Công ty Y</strong
+                  ><br /><em>05/2022</em>
+                  -
+                  <span
+                    style="
+                      border: 2px;
+                      background-color: #199cdb;
+                      color: azure;
+                      border-radius: 10px;
+                      padding: 4px;
+                      padding-left: 15px;
+                      padding-right: 15px;
+                    "
+                    ><em>Hiện tại</em></span
+                  >
+                  <br />
+                </p>
+                <p style="padding-left: 10px">
+                  -Xây dựng, phát trển Website dựa trên thiết kế và yêu cầu đã
+                  có.
+                  <br />-Phân tích và thiết kế Database, sử dụng các hệ quản trị
+                  CSDL(MySQL, SQLServer, NoSQL,...) và viết được các câu truy
+                  vấn. <br />-Sử dụng ngôn ngữ server-side (Python, Java, ...)
+                  để xây dựng các Web Service
+                </p>
+              </div>
+            </div>
+
+            <div class="right" style="margin-left: 30px">
+              <p id="c3" class="content" style="padding-left: 10px">
+                <br /><strong class="containerq">Công ty X</strong><br /><em
+                  >06/2021 - 04/2022&ensp;&ensp;</em
+                ><br />
+                <br />
+                Web Designer <br />-Thiết kế Website dựa trên yêu cầu của khách
+                hàng <br />
+                -Sử dụng các công cụ: Figma, Canva, PTS
+              </p>
+              </div>
+            </div>
+          </div>
+          <button class="show-modal2 btn btn-primary ">Submit</button>
+        </div>
+        <div
+          style="
+            margin-top: 20px;
+            border: solid black 1px;
+            margin-left: 20px;
+            line-height: 30px;
+          "
+        >
+          <span
+            class="ic-pencil"
+            style="
+              padding-left: 300px;
+              font-size: 50px;
+              position: absolute;
+              margin-top: 10px;
+              color: lightgray;
+            "
+            ;
+          ></span>
+          <h1
+            style="padding-top: 25px; padding-left: 10px; margin-bottom: 20px"
+          >
+            Học vấn
+          </h1>
+        <div class="xa3 hidden">
+          <div class="section timeline" id="education">
+            <div class="section-content right" style="margin-left: 30px">
+              <p class="content" style="padding-left: 10px">
+                <br />
+                <strong class="containerq">FUNiX</strong> <br />
+                <em>6/2021 - 05/2022</em>&ensp;&ensp;<br />
+                <br />-Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack. <br />
+                -GPA: 9 / 10
+              </p>
+            </div>
+            <div class="right" style="margin-left: 30px">
+              <p class="content" style="padding-left: 10px">
+                <br />
+                <strong class="containerq">Cử nhân - ĐH FPT</strong>
+                <br />
+                <em>08/2016 - 07/2019&ensp;&ensp;</em><br /><br />
+                -Chuyên ngành: Kỹ thuật phần mềm.
+                <br />
+                -GPA: 3.2 / 4
+              </p>
+            </div>
+            <div class="section-content right" style="margin-left: 30px">
+              <p class="content" style="padding-left: 10px">
+                <br />
+                <strong class="containerq">Đại học Hà Nội</strong> <br />
+                <em>08/2016 - 02/2018</em>&ensp;&ensp;<br />
+                <br />-Hệ từ xa, Chuyên ngành: ngôn ngữ Nhật. <br />
+                -GPA: 2.8 / 4
+              </p>
+              
+              </div>
+             </div>
+            </div>
+             <button style="margin-top: 30px;" class="show-modal3 btn btn-primary">Submit</button> 
+        </div>
+
+
+        <div
+          style="margin-top: 20px; border: solid black 1px; margin-left: 20px"
+        >
+
+          <span
+            class="ic-toolbox"
+            style="
+              padding-left: 250px;
+              font-size: 50px;
+              position: absolute;
+              margin-top: 10px;
+              color: lightgray;
+            "
+          ></span>  
+          <div class="section" id="activity">
+            <h2
+              class="section-title"
+              style="padding-left: 10px; margin-top: 25px; margin-bottom: 20px"
+            >
+              Hoạt động
+            </h2>   
+            <div class="xa4 hidden">
+            <div style="margin-left: 30px">
+              <p style="line-height: 30px; padding-left: 10px">
+                <br />
+                <strong class="containerq">FPT Edu Hackathon 2019 </strong
+                ><br /><span style="line-height: 30px"
+                  ><em>03/2019 - 05/2019</em></span
+                ><br />
+                -Giải 3 bảng A <br />
+
+                -Đề tài: Trang web về phân loại rác thải.
+                <br />
+                <br />
+              </p>
+            </div>
+
+            <div style="margin-left: 30px">
+              <p style="line-height: 30px; padding-left: 10px">
+                <strong class="containerq">Câu lạc bộ Z</strong><br /><span
+                  ><em>08/2016 - 08/2017</em></span
+                ><br />
+                -Trưởng ban chuyên môn
+                <br /><br />
+              </p>
+            </div>
+            <div style="margin-left: 30px">
+              <p style="line-height: 30px; padding-left: 10px">
+                <strong class="containerq">Câu lạc bộ Z</strong><br /><span
+                  ><em>08/2016</em></span
+                ><br />
+                -Hỗ trợ tổ chức tuần lễ văn hóa Việt Nam - Nhật Bản
+              </p>
+            </div>
+            <div class="section-content"></div>
+          </div>
+          </div>
+          <button style="margin-top: 30px;" class="show-modal4 btn btn-primary">Submit</button>
+        </div>
+        <div
+          style="
+            margin-top: 20px;
+            border: solid black 1px;
+            margin-left: 20px;
+            padding-bottom: 300px;
+          "
+        >
+          <span
+            class="ic-telescope"
+            style="
+              padding-left: 250px;
+              font-size: 60px;
+              position: absolute;
+              padding-top: 10px;
+              color: lightgray;
+            "
+          ></span>
+          <h1
+            style="padding-top: 25px; padding-left: 10px; margin-bottom: 20px"
+          >
+            Sở thích
+          </h1>
+ <div class="xa5 hidden">
+          <br /><br />
+          <span
+            class="ic-megaphone"
+            style="
+              font-size: 40px;
+              margin-left: 10px;
+              border: solid blue 2px;
+              border-radius: 50%;
+              padding: 15px;
+              color: blue;
+            "
+          ></span>
+          <span
+            class="ic-strategy"
+            style="
+              font-size: 40px;
+              margin-left: 10px;
+              border: solid blue 2px;
+              border-radius: 50%;
+              padding: 15px;
+              color: blue;
+            "
+          ></span>
+          <span
+            class="ic-hotairballoon"
+            style="
+              font-size: 40px;
+              margin-left: 10px;
+              border: solid blue 2px;
+              border-radius: 50%;
+              padding: 15px;
+              color: blue;
+            "
+          ></span>
+          <span
+            class="ic-basket"
+            style="
+              font-size: 40px;
+              margin-left: 10px;
+              border: solid blue 2px;
+              border-radius: 50%;
+              padding: 15px;
+              color: blue;
+            "
+          ></span>
+          <br /><br />
+          <span style="padding-left: 14px; font-size: 20px">Âm nhạc</span>
+          <span style="padding-left: 14px; font-size: 20px">Chơi game</span>
+          <span style="padding-left: 14px; font-size: 20px">Du lịch</span>
+          <span style="padding-left: 14px; font-size: 20px">Nẫu ăn</span>
+        </div>
+        <button style="margin-top: 30px;" class="show-modal5 btn btn-primary">Submit</button>
+        </div>
+        <div
+          style="
+            margin-top: 20px;
+            border: solid black 1px;
+            margin-left: 20px;
+            padding-bottom: 300px;
+            padding-left: 10px;
+          "
+        >
+          <span
+            class="ic-mic"
+            style="
+              padding-left: 250px;
+              font-size: 50px;
+              position: absolute;
+              padding-top: 10px;
+              color: lightgray;
+            "
+          ></span>
+          <h1 style="margin-bottom: 20px; padding-top: 25px">Ngôn ngữ</h1>
+          <div class="xa6 hidden">
+          <br />
+          <span>Tiếng Anh - IELTS 7.0</span><br />
+          <span
+            style="
+              background: #199cdb;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;
+            "
+          ></span>
+          <span
+            style="
+              background: #199cdb;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;
+            "
+          ></span>
+          <span
+            style="
+              background: #3e484d;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;
+            "
+          ></span
+          ><br /><br />
+          <span>Tiếng Nhật - JLPT N4</span><br />
+          <span
+            style="
+              background: #199cdb;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;
+            "
+          ></span>
+          <span
+            style="
+              background: #3e484d;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;
+            "
+          ></span>
+          <span
+            style="
+              background: #3e484d;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;
+            "
+          ></span
+          ><br />
+        </div>
+        <button style="margin-top: 30px;" class="show-modal6 btn btn-primary">Submit</button>
+
+        </div>
+        <div
+          style="
+            margin-top: 20px;
+            border: solid black 1px;
+            margin-left: 20px;
+            padding-bottom: 300px;
+            padding-left: 10px;
+          "
+        >
+          <span
+            class="ic-tools-2"
+            style="
+              padding-left: 250px;
+              font-size: 50px;
+              position: absolute;
+              padding-top: 10px;
+              color: lightgray;
+            "
+          ></span>
+          <h1 style="margin-bottom: 20px; padding-top: 25px">Kỹ năng</h1>
+          <div class="xa7 hidden">
+          <br />
+          <span>HTML/CSS: Fundamental</span><br />
+          <span
+            style="
+              background: #199cdb;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;
+            "
+          ></span>
+          <span
+            style="
+              background: #3e484d;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;
+            "
+          ></span>
+          <span
+            style="
+              background: #3e484d;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;
+            "
+          ></span
+          ><br /><br />
+          <span>Javascript: Intermediate</span><br />
+          <span
+            style="
+              background: #199cdb;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;
+            "
+          ></span>
+          <span
+            style="
+              background: #199cdb;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;
+            "
+          ></span>
+          <span
+            style="
+              background: #3e484d;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;
+            "
+          ></span
+          ><br /><br />
+          <span>NodeJS: Intermediate</span><br />
+          <span
+            style="
+              background: #199cdb;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;
+            "
+          ></span>
+          <span
+            style="
+              background: #199cdb;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;
+            "
+          ></span>
+          <span
+            style="
+              background: #3e484d;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;
+            "
+          ></span
+          ><br /><br />
+          <span>Boootstrap 5: Fundamental</span><br />
+          <span
+            style="
+              background: #199cdb;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;
+            "
+          ></span>
+          <span
+            style="
+              background: #3e484d;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;
+            "
+          ></span>
+          <span
+            style="
+              background: #3e484d;
+              display: inline-block;
+              height: 2px;
+
+              width: 45px;
+            "
+          ></span
+          ><br />
+     
+        </div>
+        <button style="margin-top: 30px;" class="show-modal7 btn btn-primary">Submit</button>
+      </div>
+      </div>
+    </section>
+
+    <section id="certificate" class="bg-grey">
+      <div class="container" style="margin-right: 320px">
+        <h1 class="section-title" style="padding-bottom: 80px">
+          Chứng chỉ - Giải thưởng
+        </h1>
+        <div class="container-z">
+          <div
+            style="
+              border-right: solid #d6c08d 1px;
+              margin-bottom: 10px;
+              line-height: 30px;
+            "
+          >
+            <img
+              src="images/Cert_DBI.png"
+              alt=""
+              style="
+                width: 200px;
+                float: left;
+                padding-right: 10px;
+                padding-left: 50px;
+              "
+            />
+            <span
+              ><strong>CHỨNG CHỈ LẬP TRÌNH WEB - FUNIX</strong> <br />-Chứng chỉ
+              thuộc chương trình CCDN <br />-GPA: 8.6</span
+            >
+          </div>
+          <div style="line-height: 30px">
+            <img
+              src="images/Cert_PRF.png"
+              alt=""
+              style="
+                width: 200px;
+                margin-bottom: 10px;
+                float: left;
+                padding-right: 10px;
+                padding-left: 50px;
+              "
+            />
+            <span
+              ><strong>CHỨNG CHỈ LẬP TRÌNH WEB - FUNIX</strong> <br />-Chứng chỉ
+              thuộc chương trình CCDN <br />-GPA: 8.6</span
+            >
+          </div>
+
+          <div style="border-top: solid #d6c08d 1px; line-height: 30px">
+            <img
+              src="images/Cert_DBI.png"
+              alt=""
+              style="
+                width: 200px;
+                float: left;
+                padding-right: 10px;
+                padding-left: 50px;
+                padding-top: 20px;
+              "
+            />
+            <span
+              ><strong>CHỨNG CHỈ LẬP TRÌNH WEB - FUNIX</strong> <br />-Chứng chỉ
+              thuộc chương trình CCDN <br />-GPA: 8.6</span
+            >
+          </div>
+          <!-- Border -->
+          <div style="border-top: solid #d6c08d 1px"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" style="margin-bottom: 400px;">
+      <div
+        class="container"
+        
+      >
+        <h1
+          class="section-title mx-5"
+          style="padding-bottom: 50px;"
+        >
+          Dự án
+        </h1>
+        <div class="container-1">
+          <div>
+            <img src="images/project_1.png" alt="" style="width: 440px" />
+            <div
+              style="
+                padding: 5px 10px;
+                font-size: 17px;
+                font-family: sans-serif;
+                border: solid lightgray 0.5px;
+              "
+            >
+              CV CÁ NHÂN
+            </div>
+            <div
+              style="
+                padding: 5px 10px;
+                margin-bottom: 10px;
+                border: solid lightgray 0.5px;
+              "
+            >
+              <span
+                style="
+                  background-color: #199cdb;
+                  border-radius: 500px;
+                  padding: 5px 20px;
+                "
+                >2021</span
+              ><span
+                class="icon-user-1"
+                style="
+                  padding-left: 20px;
+                  font-size: 17px;
+                  font-family: sans-serif;
+                "
+              >
+                FUNiX</span
+              ><span
+                class="icon-lamp"
+                style="
+                  padding-left: 20px;
+                  font-size: 17px;
+                  font-family: sans-serif;
+                "
+              >
+                Developer</span
+              >
+            </div>
+            <!-- <tr>
+              <th scope="col">Band</th>
+              <th scope="col">Year formed</th>
+              <th scope="col">No. of Albums</th>
+              <th scope="col">Most famous song</th>
+            </tr> -->
+
+            <table style="border: solid lightgray 0.5px">
+              <tbody>
+                <tr
+                  style="display: grid; align-items: start; margin-bottom: 19px"
+                >
+                  <td style="padding-right: 100px"></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td style="display: grid; align-items: start">Mô tả</td>
+                  <td>
+                    Trang Web CW cá nhân online. Gồm các thông tin cá nhân cũng
+                    như kỹ năng nghề nghiệp.
+                    <br>
+                    <br>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-top: solid lightgray 0.5px">Nhiệm vụ</td>
+                  <td style="border-top: solid lightgray 0.5px">
+                    -Phát triển code - Review code - Tối ưu code - Xử lý lỗi
+                  </td>
+                </tr>
+
+                <!-- several other great bands -->
+
+                <tr>
+                  <td style="border-top: solid lightgray 0.5px">Công nghệ</td>
+                  <td style="border-top: solid lightgray 1px">-HTML, CSS</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div>
+            <img src="images/project_2.png" alt="" style="width: 440px" />
+            <div
+              style="
+                padding: 5px 10px;
+                font-size: 17px;
+                font-family: sans-serif;
+                border: solid lightgray 0.5px;
+              "
+            >
+              CV CÁ NHÂN
+            </div>
+            <div
+              style="
+                padding: 5px 10px;
+                margin-bottom: 10px;
+                border: solid lightgray 0.5px;
+              "
+            >
+              <span
+                style="
+                  background-color: #199cdb;
+                  border-radius: 500px;
+                  padding: 5px 20px;
+                "
+                >2021</span
+              ><span
+                class="icon-user-1"
+                style="
+                  padding-left: 20px;
+                  font-size: 17px;
+                  font-family: sans-serif;
+                "
+              >
+                FUNiX</span
+              ><span
+                class="icon-lamp"
+                style="
+                  padding-left: 20px;
+                  font-size: 17px;
+                  font-family: sans-serif;
+                "
+              >
+                Developer</span
+              >
+            </div>
+            <!-- <tr>
+              <th scope="col">Band</th>
+              <th scope="col">Year formed</th>
+              <th scope="col">No. of Albums</th>
+              <th scope="col">Most famous song</th>
+            </tr> -->
+
+            <table style="border: solid lightgray 0.5px">
+              <tbody>
+                <tr style="display: grid; align-items: start">
+                  <td style="padding-right: 100px"></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td style="display: grid; align-items: start">Mô tả</td>
+                  <td>
+                    Ứng dụng giúp quản lý các thông tin của thú cưng như: Cân
+                    nặng, giống, tình trạng tiêm chủng, ... Bao gồm các chức
+                    năng thêm / sửa / xóa.
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-top: solid lightgray 0.5px">Nhiệm vụ</td>
+                  <td style="border-top: solid lightgray 0.5px">
+                    -Phát triển code - Review code - Tối ưu code - Xử lý lỗi
+                  </td>
+                </tr>
+
+                <!-- several other great bands -->
+
+                <tr>
+                  <td style="border-top: solid lightgray 0.5px">Công nghệ</td>
+                  <td style="border-top: solid lightgray 1px">
+                    -HTML, CSS, Javascript
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div>
+            <img src="images/project_3.png" alt="" style="width: 440px" />
+            <div
+              style="
+                padding: 5px 10px;
+                font-size: 17px;
+                font-family: sans-serif;
+                border: solid lightgray 0.5px;
+              "
+            >
+              CV CÁ NHÂN
+            </div>
+            <div
+              style="
+                padding: 5px 10px;
+                margin-bottom: 10px;
+                border: solid lightgray 0.5px;
+              "
+            >
+              <span
+                style="
+                  background-color: #199cdb;
+                  border-radius: 500px;
+                  padding: 5px 20px;
+                "
+                >2021</span
+              ><span
+                class="icon-user-1"
+                style="
+                  padding-left: 20px;
+                  font-size: 17px;
+                  font-family: sans-serif;
+                "
+              >
+                FUNiX</span
+              ><span
+                class="icon-lamp"
+                style="
+                  padding-left: 20px;
+                  font-size: 17px;
+                  font-family: sans-serif;
+                "
+              >
+                Developer</span
+              >
+            </div>
+            <!-- <tr>
+              <th scope="col">Band</th>
+              <th scope="col">Year formed</th>
+              <th scope="col">No. of Albums</th>
+              <th scope="col">Most famous song</th>
+            </tr> -->
+
+            <table style="border: solid lightgray 0.5px">
+              <tbody>
+                <tr
+                  style="display: grid; align-items: start;"
+                >
+                  <td style="padding-right: 100px"></td>
+                </tr>
+                  <td style="display: grid;">Mô tả</td>
+                  <td>
+                    Trang Web xem tin tức từ nhiều nguồn khác nhau, người dùng
+                    có thể tìm kiếm các tin tức dựa theo các từ khóa. 
+                    <br>
+                    <br>
+
+                    </td>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-top: solid lightgray 0.5px">Nhiệm vụ</td>
+                  <td style="border-top: solid lightgray 0.5px">
+                    -Phát triển code - Review code - Tối ưu code - Xử lý lỗi
+                  </td>
+                </tr>
+
+                <!-- several other great bands -->
+
+                <tr>
+                  <td style="border-top: solid lightgray 0.5px">Công nghệ</td>
+                  <td style="border-top: solid lightgray 1px">
+                    -HTML, CSS, Javascript
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="footer"
+      class="bg-grey"
+      style="
+        background-color: aliceblue;
+        display: grid;
+        align-items: center;
+      "
+    >
+      <div
+        class="container mx-auto"
+        style="width: 20cm;position: relative;"
+      >
+        <ul class="" style="list-style-type: none">
+          <li
+            style="
+              float: left;
+              margin-left: 50px;
+              font-size: 20px;
+              font-family: sans-serif;
+            "
+          >
+            <span
+              class="icon-linkedin"
+              style="
+                font-size: 20px;
+                background-color: #199cdb;
+                border-radius: 50%;
+                padding: 5px;
+                margin-right: 5px;
+              "
+            ></span>
+            <a href="https://github.com/" target="_blank">Linkedin</a>
+          </li>
+          <li style="float: left; font-size: 20px; font-family: sans-serif">
+            <span
+              class="icon-facebook"
+              style="
+                font-size: 20px;
+                background-color: #199cdb;
+                border-radius: 50%;
+                padding: 5px;
+                margin-right: 5px;
+                margin-left: 50px;
+              "
+            ></span>
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+          </li>
+          <li
+            style="
+              float: left;
+              margin-left: 50px;
+              font-size: 20px;
+              font-family: sans-serif;
+            "
+          >
+            <span
+              class="icon-github-circled"
+              style="
+                font-size: 20px;
+                background-color: #199cdb;
+                border-radius: 50%;
+                padding: 5px;
+                margin-right: 5px;
+              "
+            ></span>
+            <a href="https://www.linkedin.com/" target="_blank">Github</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+    <script src="/Assignment 02 Stater/js/script.js"></script>
+  </body>
+</html>

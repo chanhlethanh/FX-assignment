@@ -1,0 +1,119 @@
+@media (max-width: 1231px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  #banner {
+    width: 100%;
+  }
+
+  .img {
+    /*  */
+    position: relative;
+  }
+
+  .centered h1 {
+    position: absolute;
+    left: -110px;
+    top: 120px;
+    width: 2100px;
+  }
+
+  .centered span {
+    position: absolute;
+    left: -120px;
+
+    top: 100px;
+    width: 200px;
+  }
+
+  a:nth-child(odd) {
+    margin-bottom: 0px;
+    display: block;
+  }
+
+  a:nth-child(even) {
+    margin-bottom: 10px;
+    display: inline;
+  }
+
+  #banner span {
+    margin: auto;
+  }
+
+  /* fullscreen */
+
+  nav {
+    margin-left: 15cm;
+  }
+  /*  */
+
+  .container-x {
+    display: unset;
+  }
+
+  .target {
+    margin: 30px;
+    padding-left: unset;
+  }
+
+  .container-y {
+    display: unset;
+  }
+
+  .container-z {
+    display: unset;
+    margin-left: unset;
+  }
+
+  .container-z > div:nth-child(2n) {
+    margin-top: 100px;
+    border: solid #d6c08d 1px;
+    margin-bottom: 100px;
+    width: 100%;
+  }
+
+  .container-z > div:nth-child(2n + 1) {
+    border: solid #d6c08d 1px;
+  }
+
+  section > .container {
+    margin: 50px 0px;
+  }
+
+  .container-1 {
+    display: unset;
+  }
+
+  .section-title {
+  }
+
+  .container ul {
+    margin-left: 12cm;
+  }
+
+  #footer ul {
+    display: block;
+    left: -300px;
+    top: -50px;
+    padding: 10px;
+    gap: 50px;
+    margin: 0px;
+    overflow-x: hidden;
+    width: 50%;
+    height: 50%;
+  }
+
+  #footer ul > li {
+    margin: 5px 0px;
+  }
+
+  .container-y > div {
+    width: 75%;
+  }
+}
